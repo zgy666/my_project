@@ -3,7 +3,7 @@
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
-      <li>
+      <li class="demo">
         <a
           href="https://vuejs.org"
           target="_blank"
@@ -96,6 +96,13 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped lang="less">
+
+  @import "../../static/com-color";
+
+  .demo{
+    color: @c-7ACB21;
+  }
+
 
 </style>

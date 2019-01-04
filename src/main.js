@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 import qs from 'qs'
+import store from "./store"
+
 
 
 axios.defaults.baseURL = 'https://api.example.com';
@@ -48,6 +50,7 @@ router.beforeEach((to, from, next) => {
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })

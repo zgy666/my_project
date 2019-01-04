@@ -23,10 +23,10 @@ export default new Router({
       meta:{
         title:"demo页"
       },
-      children:[{
+      /*children:[{
         path:"",
         component:""
-      }]
+      }]*/
     },
     {
       path: '/demo2/:id,:cou',
